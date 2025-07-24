@@ -1,3 +1,5 @@
+echo "[INFO] Starting user creation script..."
+
 #!/usr/bin/env bash
 # Create new users and configure SSH
 
