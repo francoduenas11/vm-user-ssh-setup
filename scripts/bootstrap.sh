@@ -18,8 +18,9 @@ else
 fi
 
 # Copy host scripts over
-echo "[STEP] Overriding scripts with host /vagrant/scripts"
-cp -r /vagrant/scripts/* "$CLONE_DIR/scripts/"
+echo "[STEP] Copying host SSH public keys from /vagrant/keys"
+cp -r /vagrant/keys     "$CLONE_DIR/"
+chmod 600 "$CLONE_DIR/keys/"*.pub
 chmod +x "$CLONE_DIR/scripts/"*.sh
 
 echo "[STEP] Running user-creation"
