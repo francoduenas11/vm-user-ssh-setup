@@ -69,5 +69,9 @@ vm-user-ssh-setup/
 - **Security**: Enforced SSH key authentication; eliminated password logins.
 - **Reproducibility**: VM environment disposable with `vagrant destroy && vagrant up` or fresh EC2 launch.
 
-*Pinned as a top portfolio piece: Highlights scripting, infrastructure, and secure DevOps practices.*
+## ✅ Demo Screenshot
+
+![Bootstrap success](docs/success_part1.png)(docs/success_part2.png)
+
+*Highlights scripting, infrastructure, and secure DevOps practices.*
 
